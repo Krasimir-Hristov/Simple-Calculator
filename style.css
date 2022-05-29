@@ -17,7 +17,7 @@ body {
     height: 500px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    background: #22252d;
+    background: black;
     overflow: hidden;
 }
 
@@ -27,7 +27,7 @@ height: 150px;
 border: none;
 font-size: 2rem;
 padding: 1rem;
-color: #fff;
+color: red;
 background-color: #000;
 text-align: right;
 pointer-events: none;
@@ -53,19 +53,28 @@ button {
 }
 
 .btn-yellow{
-    background-color: rgb(245, 146, 62);
-    color: #fff;
+    background-color: #000;
+    color: teal;
+   
 }
 
 
 .btn-grey{
-    background-color: rgb(224, 224,224);
+    background-color: #000;
+    color: #fff;
 }
 
 .btn-equal{
-    background-color: green;
+    background-color: #000;
+    color: green;
 }
 
 .btn-clear{
-    background-color: red;
+    background-color: black;
+    color: red;
+}
+
+.btn-back {
+    background-color: #000;
+    color: #fff;
 }
