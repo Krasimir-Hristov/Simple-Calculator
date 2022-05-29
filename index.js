@@ -1,16 +1,22 @@
+// funcionality
 const screen = document.querySelector('.screen');
 const buttons = Array.from(document.querySelectorAll('.btn'));
+const actionButtons = Array.from(document.querySelectorAll('btn-action'));
 const equal = document.querySelector('.equal');
 const clear = document.querySelector('.clear');
 const back = document.querySelector('.back');
-
 
 buttons.map(buttons => {
     buttons.addEventListener('click', e => {
         
         screen.value += buttons.textContent;
+        
+         
+       
+       
     })
 });
+
 
 equal.addEventListener('click', e => {
     screen.value = eval(screen.value)
@@ -23,6 +29,12 @@ clear.addEventListener('click', e => {
 back.addEventListener('click', e => {
     screen.value = screen.value.slice(0, -1);
 })
+
+// Dark - White modes
+
+
+
+
 
 
 
