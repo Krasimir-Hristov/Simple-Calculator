@@ -41,9 +41,5 @@ modeButton.addEventListener("click", (e) => {
     calculator.style.background = "#000";
     screen.style.background = "#000";
     screen.style.color = "#fff";
-    buttons.style.background = "#fff";
-
-  
-
   }
 });
